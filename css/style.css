@@ -1,0 +1,16 @@
+.barcode-container {
+  width: 800px;
+  position: relative;
+  left: 18%;
+}
+
+@media print {
+  .all-container {
+    display: none !important;
+  }
+  .barcode-container {
+    width: 800px;
+    position: relative;
+    left: 1%;
+  }
+}
